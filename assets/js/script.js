@@ -106,7 +106,10 @@ const srRight = ScrollReveal({
 
 /* -- About -- */
 
-srRight.reveal('.about-text',{delay: 100})
+srRight.reveal('.about-main',{})
+srRight.reveal('.about-details',{delay: 50})
+srRight.reveal('.about-projects',{delay: 100})
+srRight.reveal('.about-clients',{delay: 150})
 
 /* -- Services -- */
 
