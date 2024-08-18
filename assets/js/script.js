@@ -62,6 +62,7 @@ sr.reveal('.portfolio-heading',{})
 sr.reveal('.port-img-1',{delay: 50})
 sr.reveal('.port-img-2', {delay: 100})
 sr.reveal('.port-img-3', {delay: 150})
+sr.reveal('.port-img-4', {delay: 200})
 
 
 const srLeft = ScrollReveal({
@@ -87,6 +88,11 @@ srLeft.reveal('.port-main-2',{delay: 50})
 srLeft.reveal('.port-sub-2',{delay: 100})
 srLeft.reveal('.port-text-2',{delay: 150})
 srLeft.reveal('.port-btn-2',{delay: 200})
+
+srLeft.reveal('.port-main-4',{delay: 50})
+srLeft.reveal('.port-sub-4',{delay: 100})
+srLeft.reveal('.port-text-4',{delay: 150})
+srLeft.reveal('.port-btn-4',{delay: 200})
 
 
 /* -- Socials -- */
